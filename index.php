@@ -1,0 +1,49 @@
+<?php include "./src/app/app.php" ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="./dist/style/app_style.css">
+    <!--  -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
+
+
+     <!--  -->
+    <link rel="stylesheet" href="./src/style/modules/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" href="./src/style/modules/simple.css">
+
+    <!--  -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="//yandex.st/jquery/1.9.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+    <!--  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./dist/img//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./dist/img//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./dist/img//favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js" integrity="sha512-KaIyHb30iXTXfGyI9cyKFUIRSSuekJt6/vqXtyQKhQP6ozZEGY8nOtRS6fExqE4+RbYHus2yGyYg1BrqxzV6YA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <title>SGS App Ulan-Ude</title>
+</head>
+<body>
+    <div class="rt"></div>
+    <?php
+        include "./src/app/beta_test.php";
+    
+        // include "./src/app/app.php";
+        include "./src/app/page_one.php";
+        include "./src/app/page_two.php";
+        include "./src/app/form.php";
+        include "./src/app/about_app.php";
+    ?>
+    <script src="./dist/js/app.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script> -->
+</body>
+</html>
