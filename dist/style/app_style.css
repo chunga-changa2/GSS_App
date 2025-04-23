@@ -1074,8 +1074,12 @@ footer .footer_box .f_box:nth-child(3) p span {
   box-sizing: border-box;
   line-height: 22px;
 }
-.box-modal1 .in_modall img.img_li_about {
-  max-width: 45%;
+.box-modal1 .in_modall img.tt {
+  width: 100%;
+  padding-top: 20px;
+}
+.box-modal1 .in_modall img {
+  width: 45%;
 }
 .box-modal1 .in_modall h1 {
   font-size: 22px;
@@ -1140,6 +1144,10 @@ footer .footer_box .f_box:nth-child(3) p span {
 .box-modal1 .in_modall p span.beta_about {
   color: red;
 }
+.box-modal1 .in_modall .version_app {
+  text-align: right;
+  font-size: 12px;
+}
 
 html, body {
   height: 100%;
@@ -1178,4 +1186,3 @@ html, body {
     visibility: hidden;
   }
 }
-
